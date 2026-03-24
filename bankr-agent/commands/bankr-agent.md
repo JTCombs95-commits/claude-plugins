@@ -18,6 +18,10 @@ Send the following query to the Bankr API: $ARGUMENTS
    - Automation (limit orders/DCA/stop-loss): `bankr-automation`
    - Token deployment (Clanker): `bankr-token-deployment`
    - Raw transactions/calldata/arbitrary tx: `bankr-arbitrary-transaction`
+   - Sign messages/typed data/EIP-712: `bankr-sign-submit-api`
+   - LLM gateway/credits/model setup: `bankr-llm-gateway`
+   - Agent profiles/project pages: `bankr-agent-profiles`
+   - Security/access control/rate limits: `bankr-safety`
 
 2. Then follow `bankr-job-workflow` for execution:
    - Submit the query using `bankr_agent_submit_prompt`

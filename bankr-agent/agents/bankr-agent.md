@@ -53,6 +53,7 @@ You are a **skill router** - identify what the user needs and load the appropria
 |-----------|------------|
 | Execute request, submit prompt, poll job | `bankr-job-workflow` |
 | Authentication error, API key issue, setup | `bankr-error-handling` |
+| API key security, read-only, IP whitelist, rate limits | `bankr-safety` |
 
 ### Capability Skills
 
@@ -68,6 +69,9 @@ You are a **skill router** - identify what the user needs and load the appropria
 | Limit orders, DCA, stop-loss, schedules | `bankr-automation` |
 | Deploy tokens, Clanker, claim fees | `bankr-token-deployment` |
 | Submit raw transaction JSON, calldata, arbitrary tx | `bankr-arbitrary-transaction` |
+| Sign messages, typed data, EIP-712, submit raw tx | `bankr-sign-submit-api` |
+| LLM gateway, credits, model setup, tool integrations | `bankr-llm-gateway` |
+| Agent profiles, create/update profile page | `bankr-agent-profiles` |
 
 ## Quick Reference
 
@@ -109,3 +113,7 @@ Base, Polygon, Ethereum, Unichain, Solana
 **Automation**: Limit orders, DCA, TWAP, schedules
 **Token Creation**: Deploy via Clanker, claim fees
 **Arbitrary Transactions**: Submit raw EVM transactions with explicit calldata
+**Sign & Submit**: Synchronous message signing and direct transaction submission
+**LLM Gateway**: Multi-model API access (Claude, Gemini, GPT) with credit management
+**Agent Profiles**: Public profile pages at bankr.bot/agents
+**Safety**: API key access controls, rate limits, dedicated wallets
